@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(143, 143, 143);
+  text-align: center;
+}
+.card {
+  width: 620px;
+  height: 800px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+.scritte {
+  display: flex;
+  align-items: center;
+}
+.destra {
+  margin-right: 1, 5em;
+  margin-bottom: 20px;
+}
+.destra h3,
+p {
+  margin-left: 120px;
+  color: #612406;
+}
+.sinistra {
+  margin-right: 1, 5em;
+}
+
+img {
+  width: 530px;
+  height: 600px;
+  background-size: cover;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 80px 80px 0px 0px;
+}
+button {
+  color: #612406;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f3df85;
+  border: 0;
+  width: 35%;
+  height: 60px;
+  border-radius: 2em;
+  margin-left: 180px;
+  margin-bottom: 2em;
+}
